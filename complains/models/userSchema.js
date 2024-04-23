@@ -3,7 +3,6 @@ import validator from "validator";
 import bcryptjs from "bcryptjs";
 import jwt from "jsonwebtoken";
 const userSchema = new mongoose.Schema({
-  
   name: {
     type: String,
     required: [true, "Please enter your Name!"],
